@@ -10,14 +10,88 @@ html body{
 }
 
 nav{
-    height : 2vh;
-    background-color: black; 
+    height : 17vh;
+    width:100%;
+    /* background-color: rgb(52, 52, 52);  */
+}
+.upper-nav{
+    display: flex;
+    height: 70%;
+    /* background-color: black; */
 }
 
-#india-flag-logo{
-    height: 1vh;
-    width: 1vw;
+#college-logo-name{
+    display: flex;
+    height: 100%;
+    width: 45vw;
+    /* background-color: aqua; */
+    /* justify-content: ; */
+    align-items: center;
+    
 }
-#india-flag-logo img{
-    height: 1vh;
+#college-logo-name img{
+    margin-left:1vw;
+    height: 90%;
+    width:fit-content;
+}
+#college-logo-name p{
+    color:rgb(1, 1, 1);
+    font-size: 2vw;
+    font-family:sans-serif;
+    
+}
+
+#right-section{
+    display: flex;
+    height: 100%;
+    width:55vw;
+    /* background-color: blanchedalmond; */
+    font-family: sans-serif;
+    font-size: 1vw;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#right-section button{
+    height: 4.5vh;
+    width: 7vw;
+    font-size: 0.9vw;
+    background-color: white;
+    /* background: transparent; */
+    
+    border-radius: 0.5vw;
+    border: none;
+
+}
+
+.lower_nav{
+    display: flex;
+    height: 40%;
+    width:100%;
+    background-color:black;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+}
+.lower_nav h3{
+    color: white;
+    font-size: 1.2vw;
+}
+
+/* --------------------photo-gallery section ------------------*/
+.img_gallery{
+    margin-top:2vw;
+    height: 80vh;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+.img_gallery img{
+    height: 100%;
+    width: 100%;
+}
+
+.programs-list{
+    height: 50vh;
+    background-color: antiquewhite;
 }
