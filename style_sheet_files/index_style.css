@@ -91,7 +91,104 @@ nav{
     width: 100%;
 }
 
+
+/* --------------------------------------------------------- */
+
+/* ---------------Program-List section --------------------------*/
+
 .programs-list{
-    height: 50vh;
-    background-color: antiquewhite;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 241, 239);
+    /* align-items: center; */
+}
+.program-heading{
+    margin-top: 1vw;
+    height:10%;
+    width:100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.program-heading h2{
+    /* margin: 2vw; */
+    /* background-color: burlywood; */
+    /* align-self: center; */
+    position: absolute;
+    
+}
+    /* ---------Programs-cards-section-------- */
+
+.program-cards{
+    margin-top:2vw;
+    height:75%;
+    width:100%;
+    /* background-color: rgb(191, 237, 139); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Btech-card{
+    height:100%;
+    width:25%;
+    /* background-color: chocolate; */
+    border-radius: 1vw;
+}
+.Btech-card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1vw;
+}
+
+/* ----------------------------------------------------- */
+
+/* -----------------About_Section----------------------- */
+.about-akgec{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: relative; */
+}
+
+
+.about-text{
+    /* left:40vw; */
+    display: flex;
+    height:95%;
+    width:30%;
+    flex-direction: column;
+    /* margin-left:2vw; */
+    border-radius: 2vw;
+    background-color: burlywood ;
+    color:white;
+    align-items: center;
+}
+.about-akgec h2{
+    margin-top: 2vw;
+    font-family: sans-serif;
+}
+.about-akgec p{
+    /* align-self: center; */
+    /* justify-content: center; */
+    width:95%;
+    font-size: 1.5vw;
+    margin-top: 5vw;
+    text-align: center;
+}
+
+.img-container{
+    /* position: relative; */
+    height: 95%;
+    width:60%;
+    border-radius: 2vw;
+}
+.img-container img{
+    height: 100%;
+    width:100%;
+    border-radius: 2vw;
 }
