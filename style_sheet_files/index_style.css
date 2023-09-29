@@ -164,21 +164,37 @@ nav{
     flex-direction: column;
     /* margin-left:2vw; */
     border-radius: 2vw;
-    background-color: burlywood ;
+    background-color:#FFE262 ;
     color:white;
     align-items: center;
 }
 .about-akgec h2{
     margin-top: 2vw;
     font-family: sans-serif;
+    text-shadow: 0.2vw 0.2vw 0.2vw  black ;
 }
 .about-akgec p{
     /* align-self: center; */
     /* justify-content: center; */
     width:95%;
     font-size: 1.5vw;
+    font-family: serif;
+    font-weight: 700;
     margin-top: 5vw;
     text-align: center;
+    color: rgb(255, 255, 255) ;
+}
+.about-akgec button{
+    margin-top: 2vw;
+    /* margin-left: 2vw; */
+    margin-right: 2vw;
+    height:5vh;
+    width:6vw;
+    /* align-self: flex-start; */
+    align-self: flex-end;
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    border-radius: 0.5vw;
 }
 
 .img-container{
