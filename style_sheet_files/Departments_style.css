@@ -81,6 +81,7 @@ nav{
     position: relative;
     height:50vh;
     width:100%;
+    margin-top: 2vw;
 }
 .img-container img{
     height:100%;
@@ -112,17 +113,18 @@ nav{
 /* --------------------Department-section----------------------- */
 .department-container{
     margin-top: 3vh;
-    height: 100vh;
+    height: 200vh;
     width:100%;
-    /* background-color: aqua; */
+    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 .card1{
-    margin-top: 5vw;
+    margin-top: 1.5vw;
     display: flex;
-    height:40%;
+    height:20%;
     width:20%;
     background-color: bisque;
     border-radius: 1.5vw;
@@ -135,9 +137,9 @@ nav{
     align-self: center;
 }
 .card2{
-    margin-top: 5vw;
+    margin-top: 1.5vw;
     display: flex;
-    height:40%;
+    height:20%;
     width:20%;
     background-color: bisque;
     border-radius: 1.5vw;
@@ -147,45 +149,49 @@ nav{
 }
 
 .card3{
-    margin-top: 5vw;
+    margin-top: 1.5vw;
     display: flex;
-    height:40%;
+    height:20%;
     width:20%;
     background-color: bisque;
     border-radius: 1.5vw;
     border:0.2vw solid yellow;
-    text-align: center;
+    justify-content: center;
     align-items: center;
+}
+.card3 h2{
+    width: 50%;
 }
 
 .card4{
-    margin-top: 5vw;
+    margin-top: 1.5vw;
     display: flex;
-    height:40%;
+    height:20%;
     width:20%;
     background-color: bisque;
     border-radius: 1.5vw;
     border:0.2vw solid yellow;
-    text-align: center;
+
     align-items: center;
 }
 
 .card5{
-    margin-top: 5vw;
+    margin-top: 1.5vw;
     display: flex;
-    height:40%;
+    height:20%;
     width:20%;
     background-color: bisque;
     border-radius: 1.5vw;
     border:0.2vw solid yellow;
-    text-align: center;
+    /* text-align: center; */
+    justify-content: center;
     align-items: center;
 }
 
 .card6{
-    margin-top: 5vw;
+    margin-top: 1.5vw;
     display: flex;
-    height:40%;
+    height:20%;
     width:20%;
     background-color: bisque;
     border-radius: 1.5vw;
@@ -195,9 +201,9 @@ nav{
 }
 
 .card7{
-    margin-top: 5vw;
+    margin-top: 1.5vw;
     display: flex;
-    height:40%;
+    height:20%;
     width:20%;
     background-color: bisque;
     border-radius: 1.5vw;
@@ -207,9 +213,22 @@ nav{
 }
 
 .card8{
-    margin-top: 5vw;
+    margin-top: 1.5vw;
     display: flex;
-    height:40%;
+    height:20%;
+    width:20%;
+    background-color: bisque;
+    border-radius: 1.5vw;
+    border:0.2vw solid yellow;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.card9{
+    margin-top: 1.5vw;
+    display: flex;
+    height:20%;
     width:20%;
     background-color: bisque;
     border-radius: 1.5vw;
@@ -218,14 +237,107 @@ nav{
     align-items: center;
 }
 
-.card9{
-    margin-top: 5vw;
+/* --------------------footer-section------------------------ */
+.foot-section{
+    margin-top: 2vw;
     display: flex;
-    height:40%;
-    width:20%;
-    background-color: bisque;
-    border-radius: 1.5vw;
-    border:0.2vw solid yellow;
-    text-align: center;
+    height:60vh;
+    width:100%;
+    background-color: black;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+/* -------------------footer-left-section------------- */
+.footer-left{
+    height: 50%;
+    width: 20%;
+    /* background-color: bisque; */
+}
+.address-section{
+    display: flex;
+    /* flex-direction: column; */
+    color:white
+}
+.address-section p{
+    margin-left:1vw;
+    width:90%;
+}
+.address-section img{
+    height:10%;
+    width:10%;
+}
+.social-links{
+    display: flex;
+    width:60%;
+    justify-content: space-evenly;
+    
+}
+
+.contact-num{
+    /* margin:1vw; */
+    color:white;
+    display: flex;
+}
+.contact-num img{
+    height:12%;
+    width:12%;
+}
+.phone-num p{
+    margin:1vw;
+}
+
+.link1{
+    height:20%;
+    width:20%
+}
+.link1 img{
+    height:100%;
+    width:100%;
+}
+.link2{
+    height:20%;
+    width:20%
+}
+.link2 img{
+    height:100%;
+    width:100%;
+}
+.link3{
+    height:20%;
+    width:20%
+}
+.link3 img{
+    height:100%;
+    width:100%;
+}
+
+/* ------------------------------- */
+
+/* ------------footer-middle-section-------------------- */
+
+.footer-middle{
+    height:90%;
+    width:20%;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-middle h2{
+    /* margin-top: 1.5vw; */
+    margin-left:1vw;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.links-block{
+    margin-left:1vw;
+    height:80%;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    color:white;
 }
