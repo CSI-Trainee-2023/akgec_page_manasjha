@@ -267,12 +267,6 @@ nav{
     height:10%;
     width:10%;
 }
-.social-links{
-    display: flex;
-    width:60%;
-    justify-content: space-evenly;
-    
-}
 
 .contact-num{
     /* margin:1vw; */
@@ -284,7 +278,14 @@ nav{
     width:12%;
 }
 .phone-num p{
-    margin:1vw;
+    margin:0.3vw 0 0 1vw;
+}
+
+.social-links{
+    display: flex;
+    width:60%;
+    justify-content: space-evenly;
+    
 }
 
 .link1{
