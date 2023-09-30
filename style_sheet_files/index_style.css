@@ -117,8 +117,13 @@ nav{
     /* background-color: burlywood; */
     /* align-self: center; */
     position: absolute;
-    
+    font-size: 8vw;
+    font-family: sans-serif;
+    color:white;
+    text-shadow: 0.3vw 0.1vw black;
+
 }
+
     /* ---------Programs-cards-section-------- */
 
 .program-cards{
@@ -164,7 +169,7 @@ nav{
     flex-direction: column;
     /* margin-left:2vw; */
     border-radius: 2vw;
-    background-color:#FFE262 ;
+    background-color:#e8cb4b ;
     color:white;
     align-items: center;
 }
@@ -212,11 +217,15 @@ nav{
 
 /* ------------------------------------------------------------- */
 /* --------------------stats-section------------------------------------- */
-
+.line1{
+    height: 40%;
+    border:0.2vw solid black;
+    width:0.2vw;
+}
 .stats-section{
     height:30vh;
     width:100%;
-    background-color: #FFE262;
+    /* background-color: #cbfc1b; */
     display: flex;
     /* flex-direction: column; */
     justify-content: space-evenly;
@@ -226,6 +235,7 @@ nav{
 .students-stats{
     height: 70%;
     width: 22vw;
+    /* border:1vw solid black; */
     /* background-color:black; */
     background-color: white;
 }
@@ -267,4 +277,59 @@ nav{
     color:white;
     color: black;
     /* background-color: chocolate; */
+}
+
+
+@media(max-width : 600px) {
+    
+    
+    
+    
+    .nav{
+        /* height: 20vh; */
+        width:100%;
+    }
+    .upper-nav{
+        height: 100%;
+    }
+    #college-logo-name{
+        width: 100%;
+        /* flex-direction: column; */
+        /* justify-content: center; */
+    }
+    #right-section{
+        width: 0;
+        display: none;
+    }
+
+    .lower_nav{
+        display: none;
+    }
+    .lower_nav h3{
+
+        display:none;
+    }
+    .img_gallery{
+        height:50vh;
+        width:100w
+    }
+
+    .programs-list{
+        height:180vh;
+        width:100%;
+    }
+
+    .program-cards{
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        height:90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .Btech-card{
+        height:29%;
+        width:70vw;
+        
+    }
 }
