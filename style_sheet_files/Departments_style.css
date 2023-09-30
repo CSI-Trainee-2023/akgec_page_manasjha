@@ -132,6 +132,7 @@ nav{
     text-align: center;
     align-items: center;
 }
+
 .card:hover{
     background-color: #fbe274;
     color: white;
