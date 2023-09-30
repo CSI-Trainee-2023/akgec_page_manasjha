@@ -269,7 +269,7 @@ nav{
 }
 
 .contact-num{
-    /* margin:1vw; */
+    margin-top:1vw;
     color:white;
     display: flex;
 }
@@ -278,10 +278,25 @@ nav{
     width:12%;
 }
 .phone-num p{
-    margin:0.3vw 0 0 1vw;
+    margin:0.3vw 0 0 0.92vw;
+}
+.email{
+    margin-top: 0.5vw;
+    color:white;
+    display: flex;
+    align-items: center;
 }
 
+.email img{
+    height:12%;
+    width:12%;
+}
+.email p{
+    margin-left:1vw
+}
 .social-links{
+    margin-top: 1vw;
+    margin-left:2vw;
     display: flex;
     width:60%;
     justify-content: space-evenly;
