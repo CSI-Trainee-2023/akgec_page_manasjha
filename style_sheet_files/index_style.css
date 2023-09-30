@@ -279,6 +279,97 @@ nav{
     /* background-color: chocolate; */
 }
 
+/* ---------------------------------------------------------- */
+
+
+.Alumni-section{
+    height:75vh;
+    width:100%;
+    /* background-color: antiquewhite; */
+}
+
+.Heading{
+    height:15%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Heading h2{
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.alumni-cards{
+    height:85%;
+    width: 100%;
+    /* background-color: #e8cb4b; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    height:95%;
+    width:27%;
+    background-color: aliceblue;
+    border-radius: 1.5vw;
+    box-shadow: 0.2vw 0.1vw 0.1vw rgb(164, 163, 163 , 0.5);
+}
+
+.alumni-img{
+    height:55%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    img{
+    height:100%;
+    }
+}
+.alumni-name{
+    height:45%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.alumni-name h3{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-family: serif;
+}
+
+.alumni-name p{
+    margin-top: 1vw;
+    height: 40%;
+    width:80%;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.read-button{
+    height:30%;
+    width:100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+
+}
+.read-button button{
+    /* align-self: center; */
+    border-radius: 1.2vw;
+    height:90%;
+    width:30%;
+    color:white;
+    background-color: #e8cb4b;
+    border:0.1vw  black;
+    font-size: 1.4vw;
+}
+
+
+
+
 
 @media(max-width : 600px) {
     
@@ -332,4 +423,14 @@ nav{
         width:70vw;
         
     }
+    .stats-section{
+        height:70vh;
+        flex-direction: column;
+    }
+    .students-stats{
+        height: 80%;
+        
+    }
+
+
 }
