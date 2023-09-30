@@ -7,6 +7,9 @@ html body{
     height:100%;
     width:100%;
 }
+body a{
+    text-decoration: none;
+}
 nav{
     height : 17vh;
     width:100%;
@@ -50,16 +53,30 @@ nav{
     align-items: center;
 
 }
+#right-section a{
+    text-decoration: none;
+    color: black;
+}
+
+#right-section h3:hover{
+    color:#e8cb4b;
+    font-weight:600;
+}
 #right-section button{
     height: 4.5vh;
     width: 7vw;
-    font-size: 0.9vw;
-    background-color: white;
+    font-size: 1vw;
+    background-color: rgb(255, 255, 255);
     /* background: transparent; */
     
     border-radius: 0.5vw;
-    border: none;
-
+    border: 0.1vw solid black;
+    box-shadow: 0.1vw 0.1vw rgb(0, 0, 0 ,0.7);
+}
+#right-section button:hover{
+    color:#e8cb4b;
+    border: 0.2vw solid #e8cb4b;
+    box-shadow: none;
 }
 
 .lower_nav{
