@@ -8,6 +8,9 @@ html body{
     height: 100%;
     width: 100%;
 }
+body a{
+    text-decoration: none;
+}
 
 nav{
     height : 17vh;
@@ -19,9 +22,7 @@ nav{
     height: 70%;
     /* background-color: black; */
 }
-.upper-nav a{
-    text-decoration: none;
-}
+
 
 #college-logo-name{
     display: flex;
@@ -374,8 +375,12 @@ nav{
     /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
-
+    text-decoration: none;
 }
+/* .read-button a{
+    height: 100%;
+    width:100%; */
+/* } */
 .read-button button{
     /* align-self: center; */
     border-radius: 1.2vw;
