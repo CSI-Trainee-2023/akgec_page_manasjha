@@ -19,6 +19,9 @@ nav{
     height: 70%;
     /* background-color: black; */
 }
+.upper-nav a{
+    text-decoration: none;
+}
 
 #college-logo-name{
     display: flex;
@@ -52,16 +55,30 @@ nav{
     align-items: center;
 
 }
+#right-section a{
+    text-decoration: none;
+    color: black;
+}
+
+#right-section h3:hover{
+    color:#e8cb4b;
+    font-weight:600;
+}
 #right-section button{
     height: 4.5vh;
     width: 7vw;
-    font-size: 0.9vw;
-    background-color: white;
+    font-size: 1vw;
+    background-color: rgb(255, 255, 255);
     /* background: transparent; */
     
     border-radius: 0.5vw;
-    border: none;
-
+    border: 0.1vw solid black;
+    box-shadow: 0.1vw 0.1vw rgb(0, 0, 0 ,0.7);
+}
+#right-section button:hover{
+    color:#e8cb4b;
+    border: 0.2vw solid #e8cb4b;
+    box-shadow: none;
 }
 
 .lower_nav{
@@ -97,7 +114,7 @@ nav{
 /* ---------------Program-List section --------------------------*/
 
 .programs-list{
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(243, 241, 239);
@@ -128,7 +145,7 @@ nav{
 
 .program-cards{
     margin-top:2vw;
-    height:75%;
+    height:70%;
     width:100%;
     /* background-color: rgb(191, 237, 139); */
     display: flex;
@@ -173,6 +190,8 @@ nav{
     color:white;
     align-items: center;
 }
+
+
 .about-akgec h2{
     margin-top: 2vw;
     font-family: sans-serif;
@@ -218,12 +237,13 @@ nav{
 /* ------------------------------------------------------------- */
 /* --------------------stats-section------------------------------------- */
 .line1{
-    height: 40%;
+    height: 25%;
     border:0.2vw solid black;
     width:0.2vw;
 }
 .stats-section{
-    height:30vh;
+    /* margin-top: 5vw; */
+    height:50vh;
     width:100%;
     /* background-color: #cbfc1b; */
     display: flex;
@@ -367,6 +387,13 @@ nav{
     font-size: 1.4vw;
 }
 
+.read-button button:hover{
+    background-color: white;
+    color: #e8cb4b;
+    font-weight: 500;
+    border: 0.3vw solid #e8cb4b;
+}
+/*------------------------------------------------------------- */
 
 .Placement-section{
     height: 100vh;
@@ -405,7 +432,7 @@ nav{
 }
 
 .contact-num{
-    /* margin:1vw; */
+    margin-top:1vw;
     color:white;
     display: flex;
 }
@@ -414,10 +441,25 @@ nav{
     width:12%;
 }
 .phone-num p{
-    margin:0.3vw 0 0 1vw;
+    margin:0.3vw 0 0 0.92vw;
+}
+.email{
+    margin-top: 0.5vw;
+    color:white;
+    display: flex;
+    align-items: center;
 }
 
+.email img{
+    height:12%;
+    width:12%;
+}
+.email p{
+    margin-left:1vw
+}
 .social-links{
+    margin-top: 1vw;
+    margin-left:2vw;
     display: flex;
     width:60%;
     justify-content: space-evenly;
