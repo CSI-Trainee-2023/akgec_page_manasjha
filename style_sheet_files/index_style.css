@@ -320,7 +320,7 @@ nav{
 .Alumni-section{
     height:75vh;
     width:100%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .Heading{
@@ -346,7 +346,7 @@ nav{
 .card1{
     height:95%;
     width:27%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     border-radius: 1.5vw;
     box-shadow: 0.2vw 0.1vw 0.1vw rgb(164, 163, 163 , 0.5);
 }
@@ -358,6 +358,7 @@ nav{
     justify-content: center;
     img{
     height:100%;
+
     }
 }
 .alumni-name{
@@ -414,6 +415,54 @@ nav{
 }
 /*------------------------------------------------------------- */
 
+.stats-section2{
+    background: url("../assets/stats-background.jpg") no-repeat fixed;
+    background-size:100%;
+}
+.stats-text{
+    margin-top:1vw;
+    color:white;
+    font-size: 1.5vw;
+    height:50vh;
+    width:95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-text p{
+    margin-top:4vw;
+    margin-left:3vw;
+}
+.stats-num{
+    height:50%;
+    width:100%;
+    /* background-color: aqua; */
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.stats-num p{
+    margin:0;
+}
+.content{
+    /* background-color: antiquewhite; */
+    height:100%;
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-num{
+    font-size: 3.5vw;
+    font-weight: 600;
+    color:#e8cb4b;
+}
+.content-style{
+    font-size: 2vw;
+}
+
+/*------------------------------------------------------------- */
 .Placement-section{
     margin-top: 4vw;
     height: 80vh;
@@ -421,7 +470,7 @@ nav{
     /* background-color: aqua; */
 }
 .Recruiter-images{
-    height: 85%;
+    height: 75%;
     width:100%;
     /* background-color: antiquewhite; */
     display: flex;
@@ -434,6 +483,26 @@ nav{
     width:20vw;
     
 }
+.more-button{
+    height: 10%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-button button{
+
+    height:100%;
+    width:10%;
+    border-radius: 1.2vw;
+    color:white;
+    background-color: #e8cb4b;
+    /* border:0.1vw  black; */
+    border:none;
+    font-size: 1.4vw;
+}
+
 .image_class img{
     height: 100%;
     width:100%;
@@ -540,7 +609,7 @@ nav{
 
 .footer-middle{
     height:90%;
-    width:20%;
+    width:30%;
     /* background-color: beige; */
     display: flex;
     flex-direction: column;
@@ -561,6 +630,10 @@ nav{
     display: flex;
     flex-direction:column;
     justify-content: space-evenly;
+    color:white;
+}
+.links-block a{
+    text-decoration: none;
     color:white;
 }
 

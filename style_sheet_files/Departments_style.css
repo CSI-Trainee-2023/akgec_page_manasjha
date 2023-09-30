@@ -138,6 +138,25 @@ nav{
     color: white;
     box-shadow: 0.1vw 0.1vw 0.1vw rgb(0, 0, 0 ,0 0.5);
     font-weight: 600;
+    .card a{
+        display: block;
+    }
+    .card a button{
+        display: block;
+    }
+}
+.card a{
+    display: none;
+    height:10%;
+    width:40%;
+}
+.card a button{
+    display: none;
+    height: 100%;
+    width:100;
+    background-color:#fbe274;
+    color:white;
+    border:none
 }
 
 /* .card2{
@@ -360,5 +379,10 @@ nav{
     display: flex;
     flex-direction:column;
     justify-content: space-evenly;
+    color:white;
+}
+
+.links-block a{
+    text-decoration: none;
     color:white;
 }
