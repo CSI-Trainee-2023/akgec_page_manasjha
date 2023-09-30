@@ -96,6 +96,10 @@ nav{
     color: white;
     font-size: 1.2vw;
 }
+.lower_nav h3:hover{
+    color:#ffff62;
+    font-weight: 600;
+}
 
 /* --------------------photo-gallery section ------------------*/
 .img_gallery{
@@ -187,16 +191,17 @@ nav{
     flex-direction: column;
     /* margin-left:2vw; */
     border-radius: 2vw;
-    background-color:#e8cb4b ;
-    color:white;
+    background-color:#fdf3f3 ;
+    color:rgb(255, 255, 255);
     align-items: center;
+    border: 0.7vw solid #ffff62
 }
 
 
 .about-akgec h2{
     margin-top: 2vw;
     font-family: sans-serif;
-    text-shadow: 0.2vw 0.2vw 0.2vw  black ;
+    text-shadow: 0.1vw 0.1vw 0.1vw  rgb(152, 150, 150) ;
 }
 .about-akgec p{
     /* align-self: center; */
@@ -207,7 +212,8 @@ nav{
     font-weight: 700;
     margin-top: 5vw;
     text-align: center;
-    color: rgb(255, 255, 255) ;
+    /* color: rgb(255, 255, 255) ; */
+    color:#000000;
 }
 .about-akgec button{
     margin-top: 2vw;
@@ -215,11 +221,19 @@ nav{
     margin-right: 2vw;
     height:5vh;
     width:6vw;
-    /* align-self: flex-start; */
+    color:#ffffff;
+    background-color: #e8cb4b;
     align-self: flex-end;
     font-size: 1.5vw;
     font-family: sans-serif;
     border-radius: 0.5vw;
+    border:none;
+    box-shadow: 0.2vw 0.2vw 0.2vw rgb(0, 0, 0 ,0.5);
+}
+.about-akgec button:hover{
+    background-color: white;
+    color: #e8cb4b;
+    border:0.2vw solid #e8cb4b;
 }
 
 .img-container{
