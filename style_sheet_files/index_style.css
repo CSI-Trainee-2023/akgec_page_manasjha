@@ -649,9 +649,7 @@ nav{
 
 
 
-@media(max-width : 600px) {
-    
-    
+@media(max-width : 599px) {
     
     
     .nav{
@@ -679,8 +677,15 @@ nav{
         display:none;
     }
     .img_gallery{
-        height:50vh;
-        width:100w
+        height:40vh;
+        width:100%;
+        background-color: aqua;
+
+    }
+    .img_gallery img{
+        height: 100%;
+        width:100%;
+        /* display: none; */
     }
 
     .programs-list{
@@ -710,5 +715,126 @@ nav{
         
     }
 
+    .about-akgec{
+    
+        flex-direction: column;
+    }
+    .about-text{
+        height:50%;
+        width: 90%;
+    }
+    .about-text p{
+        
+        font-size: 2vw;
+        font-family: serif;
+        font-weight: 700;
+        margin-top: 5vw;
+        text-align: center;
+        /* color: rgb(255, 255, 255) ; */
+        color:#000000;
+    }
+    .about-text button{
+        height:3vh;
+        width:10vw;
+    }
 
+    .img-container{
+        margin-top:5vh; 
+        width:95%;
+    }
+
+    .line1{
+        height:0.3vw;
+        width: 30vw;
+        border:0.2vw solid black;
+
+    }
+
+    .stats-section{
+        margin-top: 5vh;
+    }
+    .students-stats{
+        height: 50%;
+        width: 70%;
+        /* border:1vw solid black; */
+        /* background-color:black; */
+        background-color: white;
+    }
+    .research-center-stats{
+        height: 50%;
+        width: 70%;
+        /* background-color:black; */
+        background-color: white;
+    }
+    .program-stats{
+        height: 50%;
+        width: 70%;
+        /* background-color:black; */
+        background-color: white;
+    }
+    .quantity{
+        height:35%;
+        width:fit-content;
+        /* background-color: burlywood ; */
+        display: flex;
+        /* align-items: flex-end; */
+    }
+    .num-style{
+        align-self: flex-end;
+        font-size:10vw;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .text-style{
+        margin-left:0.5vw;   
+        align-self: flex-end;
+        font-size: 4vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .about-stats-style{
+        margin-top:0.5vw;
+        height:60%;
+        font-size:3vw;
+        color:white;
+        color: black;
+        /* background-color: chocolate; */
+    }
+    .stats-section2{
+        height:30vh;
+        width:100%;
+        /* background:fixed; */
+    }
+
+    /* ---------------------------------------------------------- */
+
+    .Placement-section{
+        margin-top: 4vw;
+        height: 50vh;
+        width:100%;
+        /* background-color: aqua; */
+    }
+    .Recruiter-images{
+        height: 75%;
+        width:100%;
+        /* background-color: antiquewhite; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .image_class{
+        /* background-color: #e8cb4b; */
+        margin-top:2vw;
+        height:10vh;
+        width:20vw;
+        
+    }
+
+    
+    .more-button button{
+
+        width:30%;
+
+        font-size: 3vw;
+    }
 }
